@@ -1,0 +1,9 @@
+.items {
+  padding-top: 1.5vw;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 10vw;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.73);
+}

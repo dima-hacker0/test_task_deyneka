@@ -1,0 +1,29 @@
+.textMaterials {
+  font-weight: 600;
+}
+.text {
+  font-size: 0.6vw;
+  letter-spacing: 0.04vw;
+  text-align: center;
+  line-height: 1vw;
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+}
+.item .text:first-child {
+  margin-bottom: 8px;
+}
+.items {
+  padding-top: 1.5vw;
+}
+.circlePdf {
+  color: #12c868;
+  font-size: 0.6vw;
+  width: 1vw;
+  height: 1vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 72%);
+}

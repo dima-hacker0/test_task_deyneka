@@ -1,0 +1,10 @@
+.container {
+  max-width: 83vw;
+  margin: 0 auto;
+}
+.advantagesAndMain {
+  display: flex;
+}
+.mainPage {
+  padding-top: 5vw;
+}

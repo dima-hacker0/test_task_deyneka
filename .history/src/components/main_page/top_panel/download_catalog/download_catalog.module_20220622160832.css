@@ -1,0 +1,20 @@
+.circlePdf {
+  color: #12c868;
+  font-size: 0.6vw;
+  width: 2vw;
+  height: 2vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 18%);
+  border-radius: 50%;
+}
+.downloadСatalog {
+  font-size: 0.8vw;
+}
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1vw;
+}

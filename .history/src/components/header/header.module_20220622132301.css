@@ -1,0 +1,17 @@
+.linkPage {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #1c1c1c;
+  font-size: 0.85vw;
+  /* margin: 0 2.8vw; */
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  max-width: 90vw;
+  margin: 0 auto;
+}
+.header {
+}

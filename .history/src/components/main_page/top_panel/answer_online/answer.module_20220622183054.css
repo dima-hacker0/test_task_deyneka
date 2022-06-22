@@ -1,0 +1,25 @@
+.answerText {
+  font-size: 0.7vw;
+  position: relative;
+  text-align: center;
+  margin-bottom: 0.6vw;
+}
+.answerText::before {
+  content: "";
+  width: 0.3vw;
+  position: absolute;
+  height: 0.3vw;
+  background-color: #12c868;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  left: 0.5vw;
+}
+.icon {
+  width: 2.3vw;
+}
+.socialMedia {
+  display: flex;
+  justify-content: space-between;
+  width: 8vw;
+}

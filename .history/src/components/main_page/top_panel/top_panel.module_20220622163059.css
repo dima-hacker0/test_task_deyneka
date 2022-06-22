@@ -1,0 +1,10 @@
+.items {
+  padding-top: 1.5vw;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 10vw;
+  -webkit-filter: drop-shadow(0px 3px 2px red);
+  filter: drop-shadow(0px 3px 2px red);
+}

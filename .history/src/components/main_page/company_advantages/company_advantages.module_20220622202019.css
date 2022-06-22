@@ -1,0 +1,22 @@
+.companyAdvantages {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1vw;
+  row-gap: 2.6vw;
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
+  width: 11vw;
+  padding-bottom: 2vw;
+  border-radius: 1vw;
+}
+.item {
+  font-size: 0.8vw;
+  text-align: center;
+}
+.item::before {
+  content: "";
+  width: 100%;
+}
+.highlightedItems {
+  font-weight: 600;
+}

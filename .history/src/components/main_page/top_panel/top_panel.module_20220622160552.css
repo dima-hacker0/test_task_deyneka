@@ -1,0 +1,5 @@
+.items {
+  padding-top: 1.5vw;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,9 @@
+.items {
+  position: relative;
+}
+.leftSide {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.3vw;
+  max-width: 40vw;
+}

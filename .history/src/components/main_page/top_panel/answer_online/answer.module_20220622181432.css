@@ -1,0 +1,9 @@
+.answerText {
+  font-size: 0.8vw;
+}
+.answerText::before {
+  content: "";
+  width: 0.1vw;
+  height: 0.1vw;
+  background-color: #12c868;
+}

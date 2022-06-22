@@ -1,0 +1,17 @@
+.items {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.leftSide {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.3vw;
+  width: 27.5vw;
+}
+.rightSide {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.3vw;
+  width: 27.5vw;
+}

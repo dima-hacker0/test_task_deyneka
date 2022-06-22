@@ -1,0 +1,25 @@
+.linkPage {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #1c1c1c;
+  font-size: 0.85vw;
+  line-height: 0.8;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80.4vw;
+  padding-top: 2vw;
+  padding-bottom: 1.7vw;
+}
+.container {
+  max-width: 83vw;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+.header {
+}
+.svg {
+  width: 1.2vw;
+}

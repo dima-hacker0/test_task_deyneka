@@ -1,0 +1,6 @@
+.items {
+  position: relative;
+}
+.leftSide {
+  display: flex;
+}

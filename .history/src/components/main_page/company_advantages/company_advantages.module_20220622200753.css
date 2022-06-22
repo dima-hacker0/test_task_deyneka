@@ -1,0 +1,10 @@
+.companyAdvantages {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  font-size: 0.8vw;
+  width: 9vw;
+  text-align: center;
+}

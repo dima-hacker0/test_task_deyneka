@@ -1,0 +1,6 @@
+body {
+  background-image: url(./images/BG.png);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
