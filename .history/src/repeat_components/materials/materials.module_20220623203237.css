@@ -1,0 +1,28 @@
+.textMaterials {
+  font-weight: 600;
+}
+.text {
+  font-size: 0.6vw;
+  letter-spacing: 0.04vw;
+  text-align: center;
+  line-height: 1vw;
+}
+.item .text:first-child {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 992px) {
+  .textMaterials {
+    font-weight: 600;
+  }
+  .text {
+    margin-top: 10px;
+    font-size: 11px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    line-height: 20px;
+  }
+  .item .text:first-child {
+    margin-bottom: 8px;
+  }
+}

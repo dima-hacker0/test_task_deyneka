@@ -1,0 +1,77 @@
+.centralBlock {
+  margin-left: 4.5vw;
+}
+.mainTitle {
+  font-weight: 300;
+  font-size: 3vw;
+  letter-spacing: -0.1vw;
+  line-height: 4.3vw;
+  margin-top: -1.5vw;
+}
+.highlightText {
+  font-weight: 600;
+}
+.turnkeyInstallation {
+  display: flex;
+  align-items: center;
+  margin-top: 1vw;
+}
+.circles {
+  display: flex;
+  column-gap: 0.3vw;
+  margin-right: 1vw;
+}
+.circles__item {
+  width: 0.4vw;
+  height: 0.4vw;
+  border-radius: 50%;
+  border: 2px solid #12c868;
+  display: flex;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  width: 40vw;
+  justify-content: space-between;
+}
+.buttons__item {
+  border: 0;
+  height: 5.1vw;
+  border-radius: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0 3vw;
+}
+.buttons__item:hover .buttonContent {
+  width: 13.5vw;
+}
+.buttonContent {
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+  width: 14vw;
+}
+.turnkeyInstallation__text {
+  font-size: 1.68vw;
+}
+.buttonText {
+  color: white;
+  font-size: 0.9vw;
+}
+.buttons__item:first-child {
+  background-color: #12c868;
+}
+.buttons__item:last-child {
+  background-color: #f38120;
+}
+.circles__item:nth-child(2) {
+  opacity: 0.75;
+}
+.circles__item:nth-child(3) {
+  opacity: 0.5;
+}
+.circles__item:nth-child(4) {
+  opacity: 0.25;
+}

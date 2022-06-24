@@ -1,0 +1,72 @@
+.linkPage {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #1c1c1c;
+  font-size: 0.8vw;
+  letter-spacing: 0.03vw;
+  transition: 0.4s;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2vw;
+  padding-bottom: 1.7vw;
+}
+.svg {
+  width: 1.2vw;
+}
+.linkPage:after {
+  display: block;
+  content: "";
+  height: 1px;
+  width: 0%;
+  background-color: #f38120;
+  transition: width 0.4s ease-in-out;
+}
+.linkPage:hover:after,
+.linkPage:focus:after {
+  width: 100%;
+}
+.linkPage:hover {
+  color: #f38120;
+}
+
+@media (max-width: 993px) {
+  .linkPage {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #1c1c1c;
+    font-size: 10px;
+    transition: 0.4s;
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    flex-direction: column;
+    width: 100%;
+    z-index: 10;
+    row-gap: 20px;
+  }
+  .svg {
+    width: 20px;
+  }
+  .linkPage:after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 0%;
+    background-color: #f38120;
+    transition: width 0.4s ease-in-out;
+  }
+  .linkPage:hover:after,
+  .linkPage:focus:after {
+    width: 100%;
+  }
+  .linkPage:hover {
+    color: #f38120;
+  }
+}

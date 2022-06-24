@@ -1,0 +1,13 @@
+body {
+  background-image: url(./images/BG.png);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+/* @media (max-width: 992px) {
+  body {
+    background-size: cover;
+  }
+} */

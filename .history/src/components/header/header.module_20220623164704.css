@@ -1,0 +1,8 @@
+.header {
+  position: relative;
+}
+.container {
+  max-width: 83vw;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}

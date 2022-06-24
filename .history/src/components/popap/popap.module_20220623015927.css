@@ -1,0 +1,54 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.container {
+  padding: 70px 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popap {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  border-radius: 35px;
+}
+.submitApplicationText {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+.enterNumber {
+  font-size: 16px;
+  margin-top: 14px;
+}
+.cross {
+  width: 20px;
+  position: absolute;
+  top: 45px;
+  right: 45px;
+  cursor: pointer;
+}
+.workingHours {
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 24px;
+}
+.input {
+  color: #a7a7a7;
+  font-size: 18px;
+  letter-spacing: 5px;
+  width: 80%;
+  height: 75px;
+  padding: 0 30px;
+  border-radius: 100vw;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 9%);
+  margin-top: 12px;
+}

@@ -1,0 +1,13 @@
+.textMaterials {
+  font-weight: 600;
+}
+.text {
+  margin-top: 10px;
+  font-size: 11px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  line-height: 20px;
+}
+.item .text:first-child {
+  margin-bottom: 8px;
+}

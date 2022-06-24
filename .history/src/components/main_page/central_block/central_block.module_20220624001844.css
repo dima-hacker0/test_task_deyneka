@@ -1,0 +1,180 @@
+.centralBlock {
+  margin-left: 4.5vw;
+}
+.mainTitle {
+  font-weight: 300;
+  font-size: 3vw;
+  letter-spacing: -0.1vw;
+  line-height: 4.3vw;
+  margin-top: -1.5vw;
+}
+.highlightText {
+  font-weight: 600;
+}
+.turnkeyInstallation {
+  display: flex;
+  align-items: center;
+  margin-top: 1vw;
+}
+.circles {
+  display: flex;
+  column-gap: 0.3vw;
+  margin-right: 1vw;
+}
+.circles__item {
+  width: 0.4vw;
+  height: 0.4vw;
+  border-radius: 50%;
+  border: 2px solid #12c868;
+  display: flex;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  width: 37.7vw;
+  justify-content: space-between;
+  margin-top: 2.5vw;
+}
+.buttons__item {
+  border: 0;
+  height: 5.1vw;
+  border-radius: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.buttons__item:hover .buttonContent {
+  width: 65%;
+}
+.buttonContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+  width: 70%;
+}
+.turnkeyInstallation__text {
+  font-size: 1.68vw;
+}
+.buttonText {
+  color: white;
+  font-size: 0.9vw;
+}
+.arrow {
+  width: 1vw;
+}
+.logoClick {
+  width: 2vw;
+}
+.answerSomeQuestions {
+  margin-top: 2vw;
+  display: flex;
+}
+.answerSomeQuestionsBoldText {
+  font-weight: 600;
+}
+.answerSomeQuestions__text {
+  margin-left: 1vw;
+  font-size: 0.78vw;
+  line-height: 1vw;
+  text-align: center;
+}
+.buttons__item:first-child {
+  background-color: #12c868;
+  width: 19.5vw;
+}
+.buttons__item:nth-child(2) {
+  background-color: #f38120;
+  width: 17.2vw;
+}
+.circles__item:nth-child(2) {
+  opacity: 0.75;
+}
+.circles__item:nth-child(3) {
+  opacity: 0.5;
+}
+.circles__item:nth-child(4) {
+  opacity: 0.25;
+}
+@media (max-width: 992px) {
+  .centralBlock {
+    margin-left: 4.5vw;
+  }
+  .mainTitle {
+    font-size: 3vw;
+    letter-spacing: -0.1vw;
+    line-height: 4.3vw;
+    margin-top: -1.5vw;
+  }
+  .turnkeyInstallation {
+    margin-top: 1vw;
+  }
+  .circles {
+    column-gap: 0.3vw;
+    margin-right: 1vw;
+  }
+  .circles__item {
+    width: 0.4vw;
+    height: 0.4vw;
+  }
+  .buttons {
+    display: flex;
+    width: 37.7vw;
+    justify-content: space-between;
+    margin-top: 2.5vw;
+  }
+  .buttons__item {
+    border: 0;
+    height: 5.1vw;
+    border-radius: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .buttons__item:hover .buttonContent {
+    width: 65%;
+  }
+  .buttonContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    width: 70%;
+  }
+  .turnkeyInstallation__text {
+    font-size: 1.68vw;
+  }
+  .buttonText {
+    color: white;
+    font-size: 0.9vw;
+  }
+  .arrow {
+    width: 1vw;
+  }
+  .logoClick {
+    width: 2vw;
+  }
+  .answerSomeQuestions {
+    margin-top: 2vw;
+    display: flex;
+  }
+  .answerSomeQuestionsBoldText {
+    font-weight: 600;
+  }
+  .answerSomeQuestions__text {
+    margin-left: 1vw;
+    font-size: 0.78vw;
+    line-height: 1vw;
+    text-align: center;
+  }
+  .buttons__item:first-child {
+    background-color: #12c868;
+    width: 19.5vw;
+  }
+  .buttons__item:nth-child(2) {
+    background-color: #f38120;
+    width: 17.2vw;
+  }
+}

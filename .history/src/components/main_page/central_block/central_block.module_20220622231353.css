@@ -1,0 +1,11 @@
+.mainTitle {
+  font-weight: 300;
+  font-size: 3vw;
+  letter-spacing: -0.1vw;
+  line-height: 4.3vw;
+  margin-top: -1vw;
+  margin-left: 1vw;
+}
+.highlightText {
+  font-weight: 600;
+}

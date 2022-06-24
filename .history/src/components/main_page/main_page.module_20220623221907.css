@@ -1,0 +1,19 @@
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.advantagesAndMain {
+  display: flex;
+  padding-top: 8vw;
+}
+.mainPage {
+  padding-bottom: 3vw;
+}
+@media (max-width: 992px) {
+  .advantagesAndMain {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    flex-flow: row-reverse;
+  }
+}

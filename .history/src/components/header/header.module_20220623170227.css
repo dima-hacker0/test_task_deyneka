@@ -1,0 +1,17 @@
+.header {
+  position: relative;
+}
+.container {
+  max-width: 83vw;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+.smallExtensionHeader {
+  display: flex;
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: inherit;
+    padding: 0 20px;
+  }
+}

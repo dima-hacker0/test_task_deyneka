@@ -1,0 +1,23 @@
+.header {
+  position: relative;
+}
+.container {
+  max-width: 83vw;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  height: 100%;
+}
+.smallExtensionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: inherit;
+    padding: 0 20px;
+  }
+  .header {
+    height: 70px;
+  }
+}

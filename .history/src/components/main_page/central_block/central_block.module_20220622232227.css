@@ -1,0 +1,22 @@
+.mainTitle {
+  font-weight: 300;
+  font-size: 3vw;
+  letter-spacing: -0.1vw;
+  line-height: 4.3vw;
+  margin-top: -1.5vw;
+  margin-left: 4.3vw;
+}
+.highlightText {
+  font-weight: 600;
+}
+.turnkeyInstallation {
+  display: flex;
+}
+.circles {
+  display: flex;
+}
+.circles__item {
+  width: 1vw;
+  height: 1vw;
+  border-radius: 50%;
+}

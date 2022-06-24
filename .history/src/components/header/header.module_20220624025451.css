@@ -1,0 +1,96 @@
+.container {
+  max-width: 83vw;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  height: 100%;
+}
+.smallExtensionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.buttonOpenMenu {
+  width: 20px;
+  height: 11px;
+  position: relative;
+  cursor: pointer;
+}
+.line {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #1c1c1c;
+}
+.firstLine {
+  transition: 0.5s;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #1c1c1c;
+}
+.firstLineCross {
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+.secondLine {
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #1c1c1c;
+  opacity: 1;
+  transition: 0.5s;
+}
+.secondLineCross {
+  opacity: 0;
+}
+.thirdLine {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #1c1c1c;
+  transition: 0.5s;
+}
+.thirdLineCross {
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+}
+.popapMenu {
+  width: 100%;
+  transform: translateX(100%);
+  position: absolute;
+  z-index: 100;
+  transition: 1s;
+  background-color: #edf2f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: calc(100vh - 71px);
+}
+.openPopapMenu {
+  opacity: 1;
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: inherit;
+    padding: 0 20px;
+  }
+  .header {
+    height: 70px;
+  }
+  .bigMenu {
+    display: none;
+  }
+}
+@media (min-width: 993px) {
+  .smallExtensionHeader {
+    display: none;
+  }
+  .popapMenu {
+    display: none;
+  }
+}

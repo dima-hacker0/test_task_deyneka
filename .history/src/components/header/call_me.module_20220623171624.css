@@ -1,0 +1,22 @@
+.workingHours {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+.number {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 0.4vw;
+}
+.callMeText {
+  font-size: 0.7vw;
+  letter-spacing: 0.05vw;
+  color: #12c868;
+  border-bottom: 0.15vw dotted #12c868;
+  cursor: pointer;
+}
+.callMeBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

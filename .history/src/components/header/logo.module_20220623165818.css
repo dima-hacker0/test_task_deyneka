@@ -1,0 +1,18 @@
+.form {
+  width: 150px;
+  -webkit-filter: drop-shadow(0px 25px 50px rgba(0, 0, 0, 0.03));
+  filter: drop-shadow(0px 25px 50px rgba(0, 0, 0, 0.03));
+}
+.logo {
+  position: absolute;
+  width: 75px;
+  left: 50%;
+  top: 37%;
+  transform: translate(-50%, -50%);
+}
+.blockLogo {
+  position: relative;
+}
+.block {
+  position: relative;
+}

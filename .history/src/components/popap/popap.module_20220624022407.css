@@ -1,0 +1,159 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: 0.5s;
+}
+.container {
+  padding: 70px 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popap {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  border-radius: 35px;
+}
+.submitApplicationText {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+.enterNumber {
+  font-size: 16px;
+  margin-top: 14px;
+}
+.cross {
+  width: 20px;
+  position: absolute;
+  top: 45px;
+  right: 45px;
+  cursor: pointer;
+}
+.workingHours {
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 24px;
+}
+.input {
+  color: #a7a7a7;
+  font-size: 18px;
+  letter-spacing: 5px;
+  max-width: 356px;
+  width: 100%;
+  height: 75px;
+  padding: 0 30px;
+  border-radius: 100vw;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 9%);
+  margin-top: 12px;
+  box-sizing: border-box;
+}
+.enterNumberInput {
+  font-size: 12px;
+}
+.inputBlock {
+  margin-top: 28px;
+}
+.buttonCallMe {
+  background-color: #f38120;
+  color: white;
+  display: flex;
+  max-width: 356px;
+  width: 100%;
+  height: 75px;
+  border-radius: 100vw;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 24px;
+  transition: 0.3s;
+}
+.buttonCallMe:hover {
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 19%);
+}
+
+.arrow {
+  width: 20px;
+  transform: rotate(45deg);
+  margin-left: 10px;
+}
+.customCheckboxActive {
+  width: 15px;
+  height: 15px;
+  background-color: #f38120;
+  cursor: pointer;
+  border: 3px solid #f38120;
+  border-radius: 3px;
+  position: relative;
+}
+.customCheckBoxInactive {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  border: 3px solid #f38120;
+  border-radius: 3px;
+}
+.checkMark {
+  position: absolute;
+  left: 0;
+  top: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+}
+.checkBoxBlock {
+  display: flex;
+  align-items: center;
+  margin-top: 19px;
+}
+.acceptConditions {
+  font-size: 12px;
+}
+.acceptConditionsBlock {
+  margin-left: 12px;
+}
+.warningTitle {
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 8px;
+}
+.applicationSended {
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px 20px 20px 20px;
+  border-radius: 10vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 56px rgb(0 0 0 / 50%);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.showElement {
+  opacity: 1;
+  pointer-events: inherit;
+}
+.hideElement {
+  opacity: 0;
+  pointer-events: none;
+}
+.greenCheckMark {
+  margin-bottom: 0px;
+}
+@media (max-width: 570px) {
+  .container {
+    padding: 50px 30px;
+  }
+}

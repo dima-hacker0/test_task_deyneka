@@ -1,0 +1,1 @@
+export const CHANGE_POPAP_STATE = "CHANGE_POPAP_STATE";
